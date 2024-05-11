@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estrangeiro?</title>
+</head>
+<body>
+    <h1>Descubra se você é um estrangeiro</h1>
+    <p>De qual país você é?</p>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Enviar" onclick="env()">
+    <div id="res"></div>
+    <script>
+        var nacionalidade = document.getElementById('pais')
+        var res = document.getElementById('res')
+        function env() {
+            if (nacionalidade.value == 'Brasil' || nacionalidade.value == 'brasil' || nacionalidade.value == 'br') {
+
+                res.innerHTML = `Você é <strong>brasileiro</strong>!`
+            } else {
+                res.innerHTML = `Você é <strong>ESTRANGEIRO</strong>`
+            }
+        }
+    </script>
+</body>
+</html>
