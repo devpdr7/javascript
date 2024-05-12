@@ -5,7 +5,6 @@ function carregar() {
     var hora = data.getHours() 
     var recep = window.document.getElementById('recep')
     msg.innerHTML = `Agora são ${hora} horas.`
-    recep.innerHTML = ""
     if (hora >= 6 && hora <= 12) {
         img.src = 'fotomanha.png'
         document.body.style.background = '#fdddad'
