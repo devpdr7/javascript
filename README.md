@@ -1,5 +1,6 @@
 # javascript
  Curso de JavaScript / Curso em vídeo
+ <br>
  <a target="https://devpdr7.github.io/javascript/Sites/exerc18/excmodel.html">Acessar o Analisador de números</a> 
  <br>
  <a target="https://devpdr7.github.io/javascript/Sites/exerc17/excmodel.html">Acessar a Tabuada</a>
